@@ -1,4 +1,4 @@
-// File: interfaces/index.ts
+
 
 export interface PropertyProps {
   name: string;

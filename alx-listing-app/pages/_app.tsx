@@ -1,4 +1,4 @@
-// File: pages/_app.tsx
+
 
 import Layout from "@/components/layout/Layout";
 import "@/styles/globals.css";

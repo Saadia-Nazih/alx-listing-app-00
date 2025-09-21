@@ -1,10 +1,10 @@
-// File: components/layout/Layout.tsx
+
 
 import React from 'react';
 import Header from "./Header";
 import Footer from "./Footer";
 
-// Definiamo il tipo per le props, specificando che 'children' è un nodo React
+
 type LayoutProps = {
   children: React.ReactNode;
 };

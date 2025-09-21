@@ -1,11 +1,10 @@
-// File: pages/index.tsx
+
 
 import React from 'react';
 import { PROPERTYLISTINGSAMPLE } from '@/constants';
 import { PropertyProps } from '@/interfaces';
 
-// Per semplicità, definiamo il componente Pill qui.
-// In un progetto più grande, andrebbe in un suo file separato.
+
 const Pill: React.FC<{ label: string; isActive?: boolean }> = ({ label, isActive }) => (
   <button
     className={`px-4 py-2 rounded-full border text-sm font-semibold
